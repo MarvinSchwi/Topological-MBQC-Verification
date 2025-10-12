@@ -1,0 +1,130 @@
+{
+    "description": "One Straight 2-Chain NOT Constituting the Identity Gate. The Target Vectors are Chosen \"Correctly\" (If There Was Another Line Along (y,z) = (3,2)). SHOULD RETURN FALSE/TRUE",
+    "shape": [
+        8,
+        8,
+        8
+    ],
+    "defects_prim": [
+        [
+            0.5,
+            3,
+            5
+        ],
+        [
+            1.5,
+            3,
+            5
+        ],
+        [
+            2.5,
+            3,
+            5
+        ],
+        [
+            3.5,
+            3,
+            5
+        ],
+        [
+            4.5,
+            3,
+            5
+        ],
+        [
+            5.5,
+            3,
+            5
+        ],
+        [
+            6.5,
+            3,
+            5
+        ]
+    ],
+    "defects_dual": [],
+    "target_vectors": {
+        "tv00": [
+            [
+                0,
+                3,
+                2.5
+            ],
+            [
+                0,
+                3,
+                3.5
+            ],
+            [
+                0,
+                3,
+                4.5
+            ],
+            [
+                7,
+                3,
+                2.5
+            ],
+            [
+                7,
+                3,
+                3.5
+            ],
+            [
+                7,
+                3,
+                4.5
+            ]
+        ],
+        "tv01": [
+            [
+                0.5,
+                2.5,
+                2.0
+            ],
+            [
+                0.5,
+                3.0,
+                1.5
+            ],
+            [
+                0.5,
+                3.0,
+                2.5
+            ],
+            [
+                0.5,
+                3.5,
+                2.0
+            ],
+            [
+                6.5,
+                2.5,
+                2.0
+            ],
+            [
+                6.5,
+                3.0,
+                1.5
+            ],
+            [
+                6.5,
+                3.0,
+                2.5
+            ],
+            [
+                6.5,
+                3.5,
+                2.0
+            ]
+        ]
+    },
+    "surfaces": {
+        "tv00": null,
+        "tv01": null
+    },
+    "optimality": {
+        "tv00": null,
+        "tv01": null
+    }
+}
