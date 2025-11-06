@@ -694,7 +694,8 @@ class Lattice:
                 # Surfaces Must Have the Same Names as the Target Vectors
                 assert set(surfaces_tuples.keys()) == set(target_vectors_tuples.keys())
                 # Surfaces Are Allowed to Be Unspecified
-                surfaces_unspecified = all([surface is None for surface in surfaces_tuples.values()])
+                # (It's Assumed Either All or None are Given; If Only Some are Specified, None Will be Loaded.)
+                surfaces_unspecified = any([surface is None for surface in surfaces_tuples.values()])
                 if not surfaces_unspecified:
                     # For All Coordinates in surface, Assert That They Are Indeed Coordinates of the Same Order ∈ {Links, Faces}
                     for name, surface in surfaces_tuples.items():
