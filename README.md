@@ -1,19 +1,22 @@
 # Topological-MBQC-Verification
 
-This repository contains source code for the algorithmic verification of topological MBQC circuits, as described in the paper "[A 3D lattice defect and efficient computations in topological MBQC](https://arxiv.org/abs/2412.09781)". Please cite this paper as:
+This repository contains source code for the algorithmic verification of topological MBQC circuits, as described in the paper "[A 3D lattice defect and efficient computations in topological MBQC](https://quantum-journal.org/papers/q-2026-02-06-1997/)". Please cite this paper as:
 
-`Gabrielle Tournaire, Marvin Schwiering, Robert Raussendorf, Sven Bachmann (2024), arXiv:2412.09781 [quant-ph]`
+`Gabrielle Tournaire, Marvin Schwiering, Robert Raussendorf, Sven Bachmann, Quantum 10, 1997 (2026)`
 
 The corresponding BibTex entry is:
 
 ```bibtex
-@misc{TournaireSchwieringRaussendorfBachmann2024,
-  author =          {Tournaire, Gabrielle and Schwiering, Marvin and Raussendorf, Robert and Bachmann, Sven},
-  year =            {2024},
-  title =           {A {{3D}} Lattice Defect and Efficient Computations in Topological {{MBQC}}},
-  eprint =          {2412.09781},
-  archivePrefix =   {arXiv},
-  primaryClass =    {quant-ph}
+@article{TournaireSchwieringRaussendorfBachmann2026,
+  author    = {Tournaire, Gabrielle and Schwiering, Marvin and Raussendorf, Robert and Bachmann, Sven},
+  year      = {2026},
+  title     = {A {{3D}} Lattice Defect and Efficient Computations in Topological {{MBQC}}},
+  journal   = {Quantum},
+  volume    = {10},
+  pages     = {1997},
+  publisher = {Verein zur F{\"{o}}rderung des Open Access Publizierens in den Quantenwissenschaften},
+  doi       = {10.22331/q-2026-02-06-1997},
+  url       = {https://quantum-journal.org/papers/q-2026-02-06-1997/}
 }
 ```
 
